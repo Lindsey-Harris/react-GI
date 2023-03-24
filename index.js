@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Prune from './react-GI/hard';
-import Apple from './react-GI/easy';
-import Strawberry from './react-GI/medium';
-import Orange from './react-GI/veryEasy';
-import reportWebVitals from './reportWebVitals';
+import Prune from './hard';
+import Apple from './easy';
+import Strawberry from './medium';
+import Orange from './veryEasy';
+import reportWebVitals from '../reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
